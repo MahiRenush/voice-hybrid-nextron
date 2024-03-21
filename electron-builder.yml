@@ -1,0 +1,12 @@
+appId: com.voice.hybrid.nextron
+productName: Combined Voice AI Hybrid
+copyright: Copyright © 2018 Mahipas A Renush
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

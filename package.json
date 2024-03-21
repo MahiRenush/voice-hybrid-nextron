@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "voice-hybrid-nextron",
+  "description": "Combined Voice AI Hybrid",
+  "version": "1.0.0",
+  "author": "Mahipas A Renush <mahipas.renush@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "cross-env OPENAI_API_KEY=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 nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps",
+    "build:mac": "nextron build --mac --x64"
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0",
+    "openai": "^4.28.4",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "devDependencies": {
+    "electron": "^21.3.3",
+    "electron-builder": "^23.6.0",
+    "next": "^13.5.2",
+    "nextron": "^8.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-speech-recognition": "^3.10.0",
+    "cross-env":"^7.0.3"
+  }
+}
