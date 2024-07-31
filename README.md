@@ -25,6 +25,7 @@ $ yarn (or `npm install`)
 
 # using pnpm
 $ pnpm install --shamefully-hoist
+
 ```
 
 ### Use it
@@ -32,6 +33,8 @@ $ pnpm install --shamefully-hoist
 ```
 # development mode
 $ yarn dev (or `npm run dev` or `pnpm run dev`)
+
+we can change the script of dev with `"dev": "cross-env OPENAI_API_KEY=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 nextron"`
 
 # production build
 $ yarn build (or `npm run build` or `pnpm run build`)

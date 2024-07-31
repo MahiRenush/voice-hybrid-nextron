@@ -6,7 +6,7 @@
   "author": "Mahipas A Renush <mahipas.renush@gmail.com>",
   "main": "app/background.js",
   "scripts": {
-    "dev": "cross-env OPENAI_API_KEY=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 nextron",
+    "dev": "nextron",
     "build": "nextron build",
     "postinstall": "electron-builder install-app-deps",
     "build:mac": "nextron build --mac --x64"
